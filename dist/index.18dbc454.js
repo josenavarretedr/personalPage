@@ -534,6 +534,15 @@ function hmrAcceptRun(bundle, id) {
 },{}],"1SICI":[function(require,module,exports) {
 var _uuid = require("uuid");
 console.log((0, _uuid.v4)());
+let $navbar_menuIcon = document.querySelector(".navbar__menuIcon");
+let $navbar_menu = document.querySelector(".navbar__menu");
+let $navbar_menuClose = document.querySelector(".navbar__menu__close");
+$navbar_menuIcon.addEventListener("click", function() {
+    $navbar_menu.classList.toggle("navbar__menu--open");
+});
+$navbar_menuClose.addEventListener("click", function() {
+    $navbar_menu.classList.toggle("navbar__menu--open");
+});
 
 },{"uuid":"j4KJi"}],"j4KJi":[function(require,module,exports) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
