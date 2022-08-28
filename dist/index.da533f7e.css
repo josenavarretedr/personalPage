@@ -1,0 +1,75 @@
+@import "https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap";
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, :before, :after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+a {
+  color: var(--text-color);
+  text-decoration: none;
+}
+
+:root {
+  --theme-color: #fff;
+  --primary-color: #124f88;
+  --secondary-color: #f7c331;
+  --third-color: #00c340;
+  --text-color-inverse: #fff;
+  --text-color: #000;
+  --navbar-shallow-color: #e5e5e5;
+  --monu-mobile-background-color: #3a4460;
+}
+
+header {
+  background-color: var(--third-color);
+  box-shadow: 0px 2px 4px var(--navbar-shallow-color);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+header nav {
+  justify-content: space-around;
+  display: flex;
+}
+
+header nav div a img {
+  width: 50px;
+  height: 50px;
+}
+
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  padding: 0 15px;
+}
+
+header nav ul li a {
+  color: var(--text-color);
+  text-transform: uppercase;
+  line-height: 50px;
+}
+
+header nav ul li a:hover {
+  color: var(--theme-color);
+}
+
+/*# sourceMappingURL=index.da533f7e.css.map */

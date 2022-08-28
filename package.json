@@ -1,0 +1,27 @@
+{
+  "name": "personalpage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josenavarretedr/personalPage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josenavarretedr/personalPage/issues"
+  },
+  "homepage": "https://github.com/josenavarretedr/personalPage#readme",
+  "dependencies": {
+    "parcel": "^2.7.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0"
+  }
+}
